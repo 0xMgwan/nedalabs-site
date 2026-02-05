@@ -95,10 +95,10 @@ export default function Products() {
                 }`}
               >
                 <div className="relative z-10">
-                  <div className={`inline-flex items-center justify-center w-16 h-16 rounded-xl mb-6 group-hover:scale-110 transition-transform duration-300 ${
+                  <div className={`inline-flex items-center justify-center w-12 h-12 rounded-lg mb-6 group-hover:scale-110 transition-transform duration-300 ${
                     isDarkMode ? 'bg-white' : 'bg-black'
                   }`}>
-                    <Icon className={`w-8 h-8 ${isDarkMode ? 'text-black' : 'text-white'}`} />
+                    <Icon className={`w-6 h-6 ${isDarkMode ? 'text-black' : 'text-white'}`} />
                   </div>
 
                   <h3 className={`text-2xl font-black mb-3 tracking-tight ${
@@ -152,8 +152,8 @@ export default function Products() {
             const Icon = stat.icon
             return (
               <div key={index} className="text-center">
-                <Icon className={`w-8 h-8 mx-auto mb-4 ${isDarkMode ? 'text-white' : 'text-white'}`} />
-                <div className={`text-4xl font-black mb-2 ${isDarkMode ? 'text-white' : 'text-white'}`}>
+                <Icon className={`w-6 h-6 mx-auto mb-4 ${isDarkMode ? 'text-white' : 'text-white'}`} />
+                <div className={`text-3xl font-black mb-2 ${isDarkMode ? 'text-white' : 'text-white'}`}>
                   {stat.value}
                 </div>
                 <div className={`text-sm font-semibold ${isDarkMode ? 'text-white' : 'text-gray-300'}`}>

@@ -46,10 +46,10 @@ export default function JUKUMU() {
 
             <div className="space-y-4 mb-8">
               <div className="flex items-start gap-4">
-                <div className={`w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0 ${
+                <div className={`w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0 ${
                   isDarkMode ? 'bg-white' : 'bg-black'
                 }`}>
-                  <Heart className={`w-6 h-6 ${isDarkMode ? 'text-black' : 'text-white'}`} />
+                  <Heart className={`w-5 h-5 ${isDarkMode ? 'text-black' : 'text-white'}`} />
                 </div>
                 <div>
                   <h3 className={`font-black mb-1 ${isDarkMode ? 'text-white' : 'text-black'}`}>Community Impact</h3>
@@ -58,10 +58,10 @@ export default function JUKUMU() {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className={`w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0 ${
+                <div className={`w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0 ${
                   isDarkMode ? 'bg-white' : 'bg-black'
                 }`}>
-                  <Leaf className={`w-6 h-6 ${isDarkMode ? 'text-black' : 'text-white'}`} />
+                  <Leaf className={`w-5 h-5 ${isDarkMode ? 'text-black' : 'text-white'}`} />
                 </div>
                 <div>
                   <h3 className={`font-black mb-1 ${isDarkMode ? 'text-white' : 'text-black'}`}>Eco-Friendly Initiatives</h3>
@@ -70,10 +70,10 @@ export default function JUKUMU() {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className={`w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0 ${
+                <div className={`w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0 ${
                   isDarkMode ? 'bg-white' : 'bg-black'
                 }`}>
-                  <Users className={`w-6 h-6 ${isDarkMode ? 'text-black' : 'text-white'}`} />
+                  <Users className={`w-5 h-5 ${isDarkMode ? 'text-black' : 'text-white'}`} />
                 </div>
                 <div>
                   <h3 className={`font-black mb-1 ${isDarkMode ? 'text-white' : 'text-black'}`}>Financial Inclusion</h3>

@@ -122,7 +122,7 @@ export default function HeroSlider() {
                               <img 
                                 src={slide.image} 
                                 alt={slide.title}
-                                className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl object-cover shadow-lg"
+                                className="w-12 h-12 sm:w-16 sm:h-16 rounded-2xl object-cover shadow-lg"
                               />
                             ) : (
                               <div className={`relative p-4 rounded-2xl shadow-lg ${isDarkMode ? 'bg-gray-800' : 'bg-black'}`}>

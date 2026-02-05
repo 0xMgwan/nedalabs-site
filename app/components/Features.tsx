@@ -86,10 +86,10 @@ export default function Features() {
                     : 'bg-white border-black hover:border-gray-700'
                 }`}
               >
-                <div className={`w-14 h-14 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300 ${
+                <div className={`w-10 h-10 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300 ${
                   isDarkMode ? 'bg-white' : 'bg-black'
                 }`}>
-                  <Icon className={`w-7 h-7 ${isDarkMode ? 'text-black' : 'text-white'}`} />
+                  <Icon className={`w-5 h-5 ${isDarkMode ? 'text-black' : 'text-white'}`} />
                 </div>
                 
                 <h3 className={`text-xl font-black mb-3 ${isDarkMode ? 'text-white' : 'text-black'}`}>
